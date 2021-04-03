@@ -1,0 +1,25 @@
+[debug] [2020-02-25T14:14:02.202Z] ----------------------------------------------------------------------
+[debug] [2020-02-25T14:14:02.207Z] Command:       C:\Users\Bulut\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\Bulut\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase serve
+[debug] [2020-02-25T14:14:02.207Z] CLI Version:   7.13.1
+[debug] [2020-02-25T14:14:02.207Z] Platform:      win32
+[debug] [2020-02-25T14:14:02.208Z] Node Version:  v12.13.1
+[debug] [2020-02-25T14:14:02.210Z] Time:          Tue Feb 25 2020 17:14:02 GMT+0300 (GMT+03:00)
+[debug] [2020-02-25T14:14:02.210Z] ----------------------------------------------------------------------
+[debug] [2020-02-25T14:14:02.210Z] 
+[debug] [2020-02-25T14:14:02.222Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-25T14:14:02.222Z] > authorizing via signed-in user
+[debug] [2020-02-25T14:14:02.223Z] [iam] checking project agac-8f6bd for permissions ["firebase.projects.get"]
+[debug] [2020-02-25T14:14:02.225Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/agac-8f6bd:testIamPermissions  
+
+[debug] [2020-02-25T14:14:03.567Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-25T14:14:03.570Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/agac-8f6bd  
+ 
+[debug] [2020-02-25T14:14:03.939Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'c:\xampp\htdocs\blogs'...
+[info] 
+[debug] [2020-02-25T14:14:03.947Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/agac-8f6bd/webApps/-/config  
+ 
+[debug] [2020-02-25T14:14:04.685Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
